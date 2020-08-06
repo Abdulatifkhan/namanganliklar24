@@ -102,6 +102,9 @@ body {
   font-size: 16px;
   line-height: 19px;
 }
+.site-header__logo {
+  margin-right: 17px;
+}
 .site-header__exchange-rates {
   margin-right: 17px;
 }
@@ -142,10 +145,16 @@ body {
 }
 /* SEARCH-BUTTON */
 .search-button {
-  padding: 8px;
+  padding: 0;
   border: none;
   border-radius: 5px;
   background-color: #fff;
+}
+.search-button-wrapper {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* LANGUAGE-TOGLER */
 .language-toggler {
@@ -153,6 +162,17 @@ body {
   border: none;
   border-radius: 5px;
   background-color: #fff;
+}
+.language-toggler__wrapper {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+.language-toggler__img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 50%;
 }
 /* TELEGRAM-SUB */
 .telegram-sub {
