@@ -166,6 +166,13 @@ body {
   background-image: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
   text-decoration: none;
 }
+.telegram-sub:hover {
+  background-color: #37AEE2;
+  background-image: linear-gradient(90deg, #37AEE2 15.07%, #1E96C8 85.96%);
+}
+.telegram-sub__img {
+  margin-right: 7px;
+}
 .telegram-sub__text {
   font-weight: 500;
 }
