@@ -8,6 +8,8 @@
 /* 7. SEARCH-BUTTON */
 /* 8. LANGUAGE-TOGLER */
 /* 9. TELEGRAM-SUB */
+/* 10. SITENAV */
+/* 11. TOP-BANNER */
 /* FONTS */
 @font-face {
   font-family: "Rubik";
@@ -103,6 +105,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 19px;
 }
@@ -220,9 +223,44 @@ body {
 .telegram-sub__text {
   font-weight: 500;
 }
-
-
-
+/* SITENAV */
+.sitenav {
+  margin-bottom: 18px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+}
+.sitenav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 12px;
+  margin: 0;
+  list-style-type: none;
+}
+.sitenav__iteam {
+  margin: 5px 12px;
+}
+/* .sitenav__iteam:not(:last-child) {
+  margin-right: 25px;
+} */
+.sitenav__link {
+  display: block;
+  font-style: 19px;
+  line-height: 23px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #515151;
+  transition: color 0.3s ease;
+}
+.sitenav__link:hover {
+  color: #295091;
+}
+/* TOP-BANNER */
+.top-banner__link {
+  display: flex;
+}
 
 
 
