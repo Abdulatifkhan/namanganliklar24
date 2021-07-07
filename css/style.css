@@ -16,56 +16,56 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../webfonts/rubik-v9-latin-regular.woff2") format("woff2"),
-  url("../webfonts/rubik-v9-latin-regular.woff") format("woff");
+  src: url("../fonts/rubik-v9-latin-regular.woff2") format("woff2"),
+  url("../fonts/rubik-v9-latin-regular.woff") format("woff");
 }
 @font-face {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfonts/Rubik-Medium.woff2") format("woff2"),
-  url("../webfonts/Rubik-Medium.woff") format("woff"); 
+  src: url("../fonts/Rubik-Medium.woff2") format("woff2"),
+  url("../fonts/Rubik-Medium.woff") format("woff"); 
 }
 @font-face {
   font-family: "Rubik";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../webfonts/rubik-v9-latin-700.woff2") format("woff2"), 
-  url("../webfonts/rubik-v9-latin-700.woff") format("woff"); 
+  src: url("../fonts/rubik-v9-latin-700.woff2") format("woff2"), 
+  url("../fonts/rubik-v9-latin-700.woff") format("woff"); 
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../webfonts/roboto-v20-latin-regular.woff2") format("woff2"), 
-  url("../webfonts/roboto-v20-latin-regular.woff") format("woff"); 
+  src: url("../fonts/roboto-v20-latin-regular.woff2") format("woff2"), 
+  url("../fonts/roboto-v20-latin-regular.woff") format("woff"); 
 }
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfonts/roboto-v20-latin-500.woff2") format("woff2"), 
-  url("../webfonts/roboto-v20-latin-500.woff") format("woff"); 
+  src: url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), 
+  url("../fonts/roboto-v20-latin-500.woff") format("woff"); 
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../webfonts/roboto-v20-latin-italic.woff2") format("woff2"), 
-  url("../webfonts/roboto-v20-latin-italic.woff") format("woff"); 
+  src: url("../fonts/roboto-v20-latin-italic.woff2") format("woff2"), 
+  url("../fonts/roboto-v20-latin-italic.woff") format("woff"); 
 }
 @font-face {
   font-family: "Roboto";
   font-style: italic;
   font-weight: 500;
   font-display: swap;
-  src: url("../webfonts/roboto-v20-latin-500italic.woff2") format("woff2"),
-  url("../webfonts/roboto-v20-latin-500italic.woff") format("woff"); 
+  src: url("../fonts/roboto-v20-latin-500italic.woff2") format("woff2"),
+  url("../fonts/roboto-v20-latin-500italic.woff") format("woff"); 
 }
 /* GENERAL STYLES */
 html {
@@ -261,11 +261,85 @@ body {
 .top-banner__link {
   display: flex;
 }
-
-
-
-
-
-
-
-
+/* COVID SECTION */
+.covid-section__list {
+  list-style-type: none;
+  margin-top: 22px;
+  padding: 30px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #F6F6F9;
+}
+.covid-section__item {
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+}
+.covid-section__item:nth-child(1) {
+  padding-left: 0;
+}
+.covid-section__img--corona {
+  width: 43px;
+  height: 45px;
+  margin-right: 25px;
+}
+.covid-section__img--ill-face {
+  width: 38px;
+  height: 40px;
+  margin-right: 17px;
+}
+.covid-section__img--smile-face {
+  width: 38px;
+  height: 40px;
+  margin-right: 19px;
+}
+.covid-section__img--death-icon {
+  width: 38px;
+  height: 38px;
+  margin-right: 19px;
+}
+.covid-section__info {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.covid-section__info--big {
+  width: 220px;
+}
+.covid-section__border {
+  width: 2px;
+}
+.covid-section__border--big {
+  margin-left: 70px;
+  height: 74px;
+  background-color: #EB5569;
+}
+.covid-section__border--small {
+  margin-left: 42px;
+  height: 49px;
+  background-color: #F4CCD1;
+}
+.covid-section__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
+.covid-section__text--red {
+  color: #DB0000;
+}
+.covid-section__text--green {
+  color: #05B135;
+}
+.covid-section__number {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
